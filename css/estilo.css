@@ -1,13 +1,114 @@
-#Titulo{
-    color: blue;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgb(10, 191, 227);
-}
-#Subtitulo{
-    color: white;
-    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Titulo {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Subtitulo {
+    color: rgb(169, 2, 219);
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.intro {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.main-nav {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-nav a {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav a:hover {
+    background-color: #003d82;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #003d82;
+}
+
+.section-content {
+    max-width: 900px;
+    margin: 0 auto 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-content h1, .section-content h2 {
+    color: #0056b3;
+}
+
+.section-content p {
+    color: #333;
+    margin-bottom: 15px;
 }
